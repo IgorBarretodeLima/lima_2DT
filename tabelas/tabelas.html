@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <!-- Tabelas em HTML -->
+
+    <table border = "5">
+        <!-- Cabeçalho da tabela -->
+        <thead>
+            <!-- Linha da tabela -->
+            <tr>
+                <th>Nome</th> <!-- coluna-->
+                <th>Idade</th>  <!-- coluna-->
+                <th>CPF</th>
+                <th>E-mail</th>
+            </tr>
+            
+        </thead>
+
+        <!-- Corpo da tabela -->
+        <tbody>
+
+            <tr>
+                <td>Matheus</td> 
+                <td>27</td>
+                <td>123.456.789-00</td>
+                <td>matheus@email.com</td> 
+            </tr>
+
+            <tr>
+                <td>Igor</td> 
+                <td>16</td>
+                <td>987.654.321-00</td>
+                <td>igor@email.com</td>
+            </tr>
+
+            <tr>
+                <td>Vovozona</td> 
+                <td>67</td>
+                <td>123.789.123-00</td>
+                <td>vovozona@email.com</td>
+            </tr>
+
+            <tr>
+                <td>ContraTerroristas</td> 
+                <td>30</td>
+                <td>456.123.789-00</td>
+                <td>confraterroristas@email.com</td>
+            </tr>
+
+        </tbody>
+
+        <!-- mesclando colunas -->
+
+       
+    </table>
+
+    <table border = "2">
+        <h1>tabela de filmes</h1>
+
+        <thead>
+
+            <tr>
+
+                <th colspan="4" >Lista de filmes</th>
+
+            </tr>
+            
+            <tr>
+                <th>genero</th>
+                <th>Titulo</th>
+                <th>Ano</th>
+                <th>Nota</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            
+            <tr>
+                <td rowspan="2">Ação</td>
+                <td>Vingadores Ultimato</td>
+                <td>2019</td>
+                <td>8.4</td>
+            </tr>
+
+            <tr>
+                <td>Jonh Wick</td>
+                <td>2026</td>
+                <td>10</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Comédia</td>
+                <td>American pie </td>
+                <td>2003</td>
+                <td>6.9</td>
+            </tr>
+
+            <tr>
+                <td>Super bad</td>
+                <td>2007</td>
+                <td>7.0</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Terror</td>
+                <td>Invocação do mal</td>
+                <td>2013</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>It: A coisa</td>
+                <td>2017</td>
+                <td>7.3</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>

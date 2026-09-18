@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- Formulário de HTML -->
+
+   <form>
+
+        <!-- Estrutura do formulário -->
+         <fieldset>
+
+            <legend>Formulário de Contato</legend>
+
+             <!-- Para as pessoas escreverem suas mensagens -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            <br>
+
+            <label for = "Senha">Senha</label>
+            <input type = "password" id = "senha" name = "senha" placeholder = "Digite sua senha" required>
+
+            <br>
+
+            <label for="Data">Data de nascimento:</label>
+            <input type="date" id="Data" name="Data" required>
+
+            <br>
+            
+         </fieldset>
+
+         <fieldset>
+            <legend>Preferencias</legend>
+
+            <p>Informe sua cor favorita:</p>
+            <label for="cor">
+                <input type = "radio" name="cor" value="azul">Azul
+            </label>
+            <label for="cor">
+                <input type = "radio" name="cor" value="vermelho">Vermelho
+            </label>
+            <br>
+
+            <p>Informe sua fruta favorita:</p>
+            <label for="Fruta">
+                <input type = "checkbox" name="fruta" value="uva">Uva
+            </label>
+
+            <label for="Fruta">
+                <input type = "checkbox" name="fruta" value="banana">Banana
+            </label>
+
+            <label for="Fruta">
+                <input type = "checkbox" name="fruta" value="maça">Maçã
+            </label>
+
+            <label for="Fruta">
+                <input type = "checkbox" name="fruta" value="laranja">Laranja
+            </label>
+
+            <label for = "Idioma">
+                <select name = "idioma" id = "Idioma">
+
+                    <option value = "portugues">Português</option>
+
+                    <option value = "ingles">Inglês</option>
+
+                    <option value = "espanhol">Espanhol</option>
+
+                </select>
+            </label>
+            <label for "sugestao">Sugestão:</label>
+            <textarea name = "sugestao" id = "sugestao" placeholder = "Digite sua sugestão"></textarea>
+            
+         </fieldset>
+         <button type="submit">Enviar</button>
+   </form> 
+</body>
+</html>
