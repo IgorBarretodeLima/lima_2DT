@@ -1,0 +1,45 @@
+.h1{
+    /* font-size: 2em; */
+    font-size: 7vw;
+    /* font-size: 100px; */
+    font-family: 'Isometra';
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+    color: aqua;
+}
+.h2{
+    font-size: 50px;
+    color: rgb(41, 185, 75);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+}
+.h3{
+    font-size: 35px;
+    color: #f5b700;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+}   
+.h4{    
+    font-size: 25px;
+    color: rgba(241, 9, 9, 0.8);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+}
+.h5{
+    font-size: 20px;
+    color: hsl(287, 83%, 37%);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+}
+.h6{
+    font-size: 15px;
+    color: #d81e9a;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+}
