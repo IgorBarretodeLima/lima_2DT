@@ -1,0 +1,23 @@
+/* /* /* seletor {
+    propriedade: valor;
+} */
+
+/* p{
+    color: #2f4b61;
+} */
+
+p{
+    color: crimson;
+}
+.eu{
+    color: blue;
+}
+.tu{
+    color: green;
+}
+.nos{
+    color: yellow;
+}
+.eles{
+    color: orange;
+}
