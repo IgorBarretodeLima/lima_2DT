@@ -1,0 +1,15 @@
+button{
+    background-color: #1fc0fb;  
+    border: 3px solid #000;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin: 10px;
+}
+.bt{
+    background-color: #eab300;  
+    border: 3px solid #000;
+    border-radius: 15px;
+    padding: 20px 10px;
+    font-size: 16px;
+    margin: 10px;
+}
